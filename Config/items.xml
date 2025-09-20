@@ -10,8 +10,8 @@
             <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
             <property name="Stacknumber" value="5"/>
             <property name="Weight" value="0"/>
-            <property name="SoundPickup" value="ammobox_grab"/>
-            <property name="SoundPlace" value="ammobox_place"/>
+            <property name="SoundPickup" value="cloth_grab" />
+            <property name="SoundPlace" value="cloth_place" />
         	<property name="UnlockedBy" value="craftingMedical"/>
             <property name="Group" value="Science,Medical,TCMedical"/>
             <property class="Action0">
