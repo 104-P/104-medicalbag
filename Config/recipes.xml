@@ -1,0 +1,29 @@
+<configs>
+    <append xpath="/recipes">
+        <recipe name="medicalBagSmall" count="1" tags="learnable,packMuleCrafting">
+            <ingredient name="foodHoney" count="1"/>
+            <ingredient name="medicalFirstAidBandage" count="3"/>
+            <ingredient name="resourceSewingKit" count="1"/>
+            <ingredient name="medicalSplint" count="1"/>
+            <ingredient name="resourceCloth" count="2"/>
+        </recipe>
+
+        <recipe name="medicalBagMedium" count="1" tags="learnable,packMuleCrafting">
+            <ingredient name="drugHerbalAntibiotics" count="1"/>
+            <ingredient name="medicalPlasterCast" count="1"/>
+            <ingredient name="medicalFirstAidKit" count="2"/>
+            <ingredient name="resourceScrapPolymers" count="6"/>
+        </recipe>
+
+        <recipe name="medicalBagLarge" count="1" tags="learnable,packMuleCrafting">
+            <ingredient name="drugAntibiotics" count="2"/>
+            <ingredient name="medicalFirstAidKit" count="3"/>
+            <ingredient name="medicalFirstAidBandage" count="5"/>
+            <ingredient name="drugSteroids" count="2"/>
+            <ingredient name="drugVitamins" count="2"/>
+            <ingredient name="drugPainkillers" count="2"/>
+            <ingredient name="resourceWood" count="1"/>
+            <ingredient name="resourceCloth" count="6"/>
+        </recipe>
+    </append>
+</configs>

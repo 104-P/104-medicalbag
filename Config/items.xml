@@ -1,0 +1,58 @@
+<configs>
+    <append xpath="/items">
+        <item name="medicalBagMaster">
+            <property name="CreativeMode" value="None"/>
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="medicalBagGroupDesc"/>
+            <property name="Material" value="Mcloth"/>
+            <property name="HoldType" value="45" />
+            <property name="Meshfile" value="Items/Misc/sackPrefab" />
+            <property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab" />
+            <property name="Stacknumber" value="5"/>
+            <property name="Weight" value="0"/>
+            <property name="SoundPickup" value="ammobox_grab"/>
+            <property name="SoundPlace" value="ammobox_place"/>
+        	<property name="UnlockedBy" value="craftingMedical"/>
+            <property name="Group" value="Science,Medical,TCMedical"/>
+            <property class="Action0">
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+            </property>
+        </item>
+
+        <item name="medicalBagSmall">
+            <property name="Extends" value="medicalBagMaster"/>
+            <property name="EconomicValue" value="100"/>
+            <property name="DescriptionKey" value="medicalBagSmall_desc"/>
+            <property name="CustomIcon" value="medicalBagSmall"/>
+            <property class="Action0">
+                <property name="Create_item" value="foodHoney,medicalFirstAidBandage,resourceSewingKit,medicalSplint"/>
+        		<property name="Create_item_count" value="1,3,1,1"/>
+            </property>
+
+        </item>
+
+        <item name="medicalBagMedium">
+            <property name="Extends" value="medicalBagMaster"/>
+            <property name="EconomicValue" value="300"/>
+            <property name="DescriptionKey" value="medicalBagMedium_desc"/>
+            <property name="CustomIcon" value="medicalBagIcon"/>
+            <property class="Action0">
+                <property name="Create_item" value="drugHerbalAntibiotics,medicalPlasterCast,medicalFirstAidKit"/>
+        		<property name="Create_item_count" value="1,1,2"/>
+            </property>
+        </item>
+
+        <item name="medicalBagLarge">
+            <property name="Extends" value="medicalBagMaster"/>
+            <property name="EconomicValue" value="750"/>
+            <property name="DescriptionKey" value="medicalBagLarge_desc"/>
+            <property name="CustomIcon" value="medicalBagIcon"/>
+            <property class="Action0">
+                <property name="Create_item" value="drugAntibiotics,medicalFirstAidKit,medicalFirstAidBandage,drugSteroids,drugVitamins,drugPainkillers,medicalPlasterCast"/>
+        		<property name="Create_item_count" value="2,3,5,2,2,2,2"/>
+            </property>
+        </item>
+    </append>
+</configs>
