@@ -37,7 +37,7 @@
             <property name="Extends" value="medicalBagMaster"/>
             <property name="EconomicValue" value="300"/>
             <property name="DescriptionKey" value="medicalBagMedium_desc"/>
-            <property name="CustomIcon" value="medicalBagIcon"/>
+            <property name="CustomIcon" value="medicalBagMedium"/>
             <property class="Action0">
                 <property name="Create_item" value="drugHerbalAntibiotics,medicalPlasterCast,medicalFirstAidKit"/>
         		<property name="Create_item_count" value="1,1,2"/>
@@ -48,7 +48,7 @@
             <property name="Extends" value="medicalBagMaster"/>
             <property name="EconomicValue" value="750"/>
             <property name="DescriptionKey" value="medicalBagLarge_desc"/>
-            <property name="CustomIcon" value="medicalBagIcon"/>
+            <property name="CustomIcon" value="medicalBagLarge"/>
             <property class="Action0">
                 <property name="Create_item" value="drugAntibiotics,medicalFirstAidKit,medicalFirstAidBandage,drugSteroids,drugVitamins,drugPainkillers,medicalPlasterCast"/>
         		<property name="Create_item_count" value="2,3,5,2,2,2,2"/>
